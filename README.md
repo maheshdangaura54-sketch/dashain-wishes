@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="ne">
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'e2b89ce91379f1dbc1ed676a7df5b203',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/e2b89ce91379f1dbc1ed676a7df5b203/invoke.js"></script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>दुर्गा पूजाको शुभकामना</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Hind Siliguri', 'Poppins', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0f054c 0%, #1b0f6b 100%);
+            color: #fff;
+            min-height: 100vh;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+            z-index: 5;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 206, 62, 0.3);
+            position: relative;
+        }
+        
+        h1 {
+            font-size: 3.2rem;
+            margin-bottom: 10px;
+            color: #ffce3e;
+            text-shadow: 0 0 10px #ffce3e, 0 0 20px #ffce3e;
+            animation: glow 2s infinite alternate;
+            font-weight: 700;
+        }
+        
+        .sub-header {
+            font-size: 2rem;
+            margin-bottom: 25px;
+            color: #ff6b9c;
+            text-shadow: 0 0 10px #ff6b9c, 0 0 20px #ff6b9c;
+            animation: glowPink 2s infinite alternate;
+            font-weight: 700;
+        }
+        
+        .image-container {
+            margin: 25px auto;
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid #ffce3e;
+            box-shadow: 0 0 25px #ffce3e;
+            animation: float 6s ease-in-out infinite;
+            position: relative;
+            z-index: 6;
+        }
+        
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .image-container::after {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #ffce3e, #ff6b9c, #4ecdc4, #ffce3e);
+            background-size: 400% 400%;
+            z-index: -1;
+            animation: gradientBorder 8s ease infinite;
+        }
+        
+        .message {
+            font-size: 1.8rem;
+            margin: 25px 0;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(255, 206, 62, 0.15);
+            animation: fadeIn 2s;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 206, 62, 0.2);
+            position: relative;
+            z-index: 6;
+        }
+        
+        .highlight {
+            color: #ffce3e;
+            font-weight: bold;
+            text-shadow: 0 0 5px rgba(255, 206, 62, 0.5);
+        }
+        
+        .form-container {
+            margin: 25px 0;
+            position: relative;
+            z-index: 6;
+        }
+        
+        input {
+            padding: 15px 25px;
+            width: 350px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            outline: none;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        button {
+            padding: 15px 35px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 50px;
+            background: linear-gradient(45deg, #ffce3e, #ff9a3e);
+            color: #1a0069;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        button:hover {
+            background: linear-gradient(45deg, #ffdb7a, #ffb37a);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+        }
+        
+        .link-container {
+            margin: 25px 0;
+            display: none;
+            position: relative;
+            z-index: 6;
+        }
+        
+        .link-box {
+            padding: 18px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            color: #1a0069;
+            margin-top: 15px;
+            word-break: break-all;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            border: 2px dashed #6a11cb;
+        }
+        
+        .link-box i {
+            margin-left: 15px;
+            cursor: pointer;
+            color: #6a11cb;
+            font-size: 1.3rem;
+            transition: all 0.3s;
+        }
+        
+        .link-box i:hover {
+            color: #ffce3e;
+            transform: scale(1.1);
+        }
+        
+        .social-share {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .social-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .social-btn:hover {
+            transform: translateY(-3px) scale(1.1);
+        }
+        
+        .whatsapp { background: #25D366; }
+        .facebook { background: #3b5998; }
+        .telegram { background: #0088cc; }
+        .twitter { background: #1DA1F2; }
+        .instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+        .snapchat { background: #FFFC00; color: black; }
+        .messenger { background: #006AFF; }
+        
+        .flowers {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 10; /* Increased z-index to appear in front */
+            pointer-events: none;
+        }
+        
+        .flower {
+            position: absolute;
+            font-size: 2rem;
+            color: #ffce3e;
+            top: -50px;
+            animation: fall linear forwards;
+            opacity: 0.7;
+            z-index: 10; /* Increased z-index to appear in front */
+        }
+        
+        #fireworks, #firecrackers {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9; /* Increased z-index to appear in front of container */
+        }
+        
+        .firework {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: #ffce3e;
+            box-shadow: 0 0 10px #ffce3e;
+            animation: explode 1s forwards;
+            opacity: 0;
+            z-index: 9; /* Increased z-index to appear in front */
+        }
+        
+        .firecracker {
+            position: absolute;
+            width: 8px;
+            height: 20px;
+            background: #ff0000;
+            border-radius: 2px;
+            animation: launch 2s forwards;
+            z-index: 9; /* Increased z-index to appear in front */
+        }
+        
+        .spark {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: #ffce3e;
+            animation: sparkle 1s forwards;
+            z-index: 9; /* Increased z-index to appear in front */
+        }
+        
+        .share-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 100;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .share-content {
+            background: linear-gradient(135deg, #1a0069 0%, #6a11cb 100%);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 0 30px rgba(255, 206, 62, 0.5);
+            border: 2px solid #ffce3e;
+            z-index: 101;
+        }
+        
+        .share-content h2 {
+            color: #ffce3e;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+        
+        .share-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .share-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            color: white;
+            font-size: 2rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .share-btn:hover {
+            transform: translateY(-5px) scale(1.1);
+        }
+        
+        .share-btn span {
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+        
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #ffce3e;
+            color: #1a0069;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            font-weight: bold;
+            z-index: 102;
+        }
+        
+        @keyframes explode {
+            0% {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: translate(var(--tx), var(--ty)) scale(0);
+                opacity: 0;
+            }
+        }
+        
+        @keyframes launch {
+            0% {
+                transform: translateY(100vh);
+            }
+            100% {
+                transform: translateY(var(--ty));
+                opacity: 0;
+            }
+        }
+        
+        @keyframes sparkle {
+            0% {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: translate(var(--tx), var(--ty)) scale(0);
+                opacity: 0;
+            }
+        }
+        
+        @keyframes fall {
+            to {
+                transform: translateY(100vh) rotate(360deg);
+            }
+        }
+        
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #ffce3e, 0 0 20px #ffce3e;
+            }
+            to {
+                text-shadow: 0 0 15px #ffce3e, 0 0 30px #ffce3e, 0 0 40px #ffce3e;
+            }
+        }
+        
+        @keyframes glowPink {
+            from {
+                text-shadow: 0 0 10px #ff6b9c, 0 0 20px #ff6b9c;
+            }
+            to {
+                text-shadow: 0 0 15px #ff6b9c, 0 0 30px #ff6b9c, 0 0 40px #ff6b9c;
+            }
+        }
+        
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes gradientBorder {
+            0% {
+                background-position: 0% 50%;
+                opacity: 0.7;
+            }
+            50% {
+                background-position: 100% 50%;
+                opacity: 1;
+            }
+            100% {
+                background-position: 0% 50%;
+                opacity: 0.7;
+            }
+        }
+        
+        .footer {
+            margin-top: 25px;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.7);
+            text-align: center;
+            position: relative;
+            z-index: 6;
+        }
+        
+        .language {
+            margin-top: 15px;
+            font-size: 1rem;
+            color: #ffce3e;
+            position: relative;
+            z-index: 6;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .sub-header {
+                font-size: 1.6rem;
+            }
+            
+            .image-container {
+                width: 250px;
+                height: 250px;
+            }
+            
+            input {
+                width: 90%;
+                font-size: 1rem;
+            }
+            
+            .message {
+                font-size: 1.5rem;
+            }
+            
+            button {
+                padding: 12px 25px;
+                font-size: 1rem;
+            }
+            
+            .share-btn {
+                width: 70px;
+                height: 70px;
+                font-size: 1.7rem;
+            }
+            
+            .social-btn {
+                width: 45px;
+                height: 45px;
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flowers" id="flowers"></div>
+    <div id="fireworks"></div>
+    <div id="firecrackers"></div>
+    
+    <div class="container">
+        <h1>शुभ दुर्गा पूजा</h1>
+        <div class="sub-header">महान चाड दशैं र विजया दशमीको शुभकामना</div>
+        
+        <div class="image-container">
+            <!-- Placeholder for Durga Maa image -->
+            <img src="Durga maa.gif" alt="दुर्गा माँ" id="durgaImage">
+        </div>
+        
+        <div class="message" id="message">
+            दुर्गा माँले तपाईंलाई सुख, समृद्धि र आनन्द प्रदान गरुन्!
+        </div>
+        
+        <div class="form-container">
+            <input type="text" id="nameInput" placeholder="आफ्नो नाम लेख्नुहोस्">
+            <br>
+            <button onclick="generateLink()"><i class="fas fa-share-alt"></i> शुभकामना लिंक बनाउनुहोस्</button>
+        </div>
+        
+        <div class="link-container" id="linkContainer">
+            <p>यो शुभकामना आफ्ना प्रियजनहरूसँग साझा गर्नुहोस्:</p>
+            <div class="link-box">
+                <span id="generatedLink"></span>
+                <i class="far fa-copy" onclick="copyLink()" title="कपी गर्नुहोस्"></i>
+            </div>
+            
+            <div class="social-share">
+                <a href="#" class="social-btn whatsapp" onclick="shareOnWhatsApp()">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#" class="social-btn facebook" onclick="shareOnFacebook()">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-btn telegram" onclick="shareOnTelegram()">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="#" class="social-btn twitter" onclick="shareOnTwitter()">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-btn instagram" onclick="shareOnInstagram()">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-btn messenger" onclick="shareOnMessenger()">
+                    <i class="fab fa-facebook-messenger"></i>
+                </a>
+            </div>
+            
+            <button onclick="openShareModal()" style="margin-top: 20px;">
+                <i class="fas fa-share"></i> थप सेयरिंग विकल्पहरू
+            </button>
+        </div>
+        
+        <div class="language">
+            <p>Happy Durga Puja & Dashain</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        दुर्गा पूजाको पावन अवसरमा हार्दिक शुभकामना
+    </div>
+    
+    <!-- Social Share Modal -->
+    <div class="share-modal" id="shareModal">
+        <div class="share-content">
+            <div class="close-btn" onclick="closeShareModal()">&times;</div>
+            <h2>साझा गर्नुहोस्</h2>
+            <p>आफ्ना शुभकामनाहरू यी प्लेटफर्महरूमा साझा गर्नुहोस्</p>
+            <div class="share-buttons">
+                <a href="#" class="share-btn whatsapp" onclick="shareOnWhatsApp()">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="#" class="share-btn facebook" onclick="shareOnFacebook()">
+                    <i class="fab fa-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+                <a href="#" class="share-btn telegram" onclick="shareOnTelegram()">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+                <a href="#" class="share-btn twitter" onclick="shareOnTwitter()">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+                <a href="#" class="share-btn instagram" onclick="shareOnInstagram()">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="#" class="share-btn messenger" onclick="shareOnMessenger()">
+                    <i class="fab fa-facebook-messenger"></i>
+                    <span>Messenger</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Create falling flowers
+        function createFlowers() {
+            const flowersContainer = document.getElementById('flowers');
+            const flowers = ['🌸', '🌺', '🌼', '🌷', '💮', '🪷'];
+            const numberOfFlowers = 30;
+            
+            for (let i = 0; i < numberOfFlowers; i++) {
+                setTimeout(() => {
+                    const flower = document.createElement('div');
+                    flower.classList.add('flower');
+                    flower.innerHTML = flowers[Math.floor(Math.random() * flowers.length)];
+                    
+                    // Random horizontal position
+                    const left = Math.random() * 100;
+                    flower.style.left = `${left}vw`;
+                    
+                    // Random animation duration
+                    const duration = 5 + Math.random() * 10;
+                    flower.style.animationDuration = `${duration}s`;
+                    
+                    // Random size
+                    const size = 1 + Math.random() * 2;
+                    flower.style.fontSize = `${size}rem`;
+                    
+                    // Random start delay
+                    flower.style.animationDelay = `${Math.random() * 5}s`;
+                    
+                    flowersContainer.appendChild(flower);
+                    
+                    // Remove flower after animation completes
+                    setTimeout(() => {
+                        flower.remove();
+                    }, duration * 1000);
+                    
+                }, i * 500);
+            }
+        }
+        
+        // Create fireworks - 3x more than before
+        function createFireworks() {
+            const fireworksContainer = document.getElementById('fireworks');
+            fireworksContainer.innerHTML = '';
+            
+            // Create 90 fireworks instead of 30 (3x more)
+            for (let i = 0; i < 90; i++) {
+                setTimeout(() => {
+                    const x = Math.random() * window.innerWidth;
+                    const y = Math.random() * window.innerHeight;
+                    
+                    // Create more particles per firework
+                    for (let j = 0; j < 80; j++) {
+                        const particle = document.createElement('div');
+                        particle.classList.add('firework');
+                        
+                        const angle = Math.random() * Math.PI * 2;
+                        const distance = 50 + Math.random() * 150;
+                        const tx = Math.cos(angle) * distance;
+                        const ty = Math.sin(angle) * distance;
+                        
+                        particle.style.setProperty('--tx', `${tx}px`);
+                        particle.style.setProperty('--ty', `${ty}px`);
+                        
+                        particle.style.left = `${x}px`;
+                        particle.style.top = `${y}px`;
+                        
+                        // Random color with more vibrant options
+                        const colors = ['#ffce3e', '#ff6b9c', '#4ecdc4', '#1a0069', '#6a11cb', '#ff0000', '#00ff00', '#00ffff', '#ff00ff', '#ffff00'];
+                        particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+                        
+                        // Random size for particles
+                        const size = 3 + Math.random() * 5;
+                        particle.style.width = `${size}px`;
+                        particle.style.height = `${size}px`;
+                        
+                        fireworksContainer.appendChild(particle);
+                        
+                        // Remove after animation
+                        setTimeout(() => {
+                            particle.remove();
+                        }, 1000);
+                    }
+                }, i * 100); // Reduced delay between fireworks for more continuous effect
+            }
+        }
+        
+        // Create firecrackers
+        function createFirecrackers() {
+            const firecrackersContainer = document.getElementById('firecrackers');
+            const numberOfCrackers = 20;
+            
+            for (let i = 0; i < numberOfCrackers; i++) {
+                setTimeout(() => {
+                    const x = Math.random() * window.innerWidth;
+                    
+                    // Create firecracker
+                    const cracker = document.createElement('div');
+                    cracker.classList.add('firecracker');
+                    
+                    cracker.style.left = `${x}px`;
+                    cracker.style.setProperty('--ty', `${Math.random() * 50 + 25}vh`);
+                    
+                    firecrackersContainer.appendChild(cracker);
+                    
+                    // Create sparks after firecracker launches
+                    setTimeout(() => {
+                        for (let j = 0; j < 30; j++) {
+                            const spark = document.createElement('div');
+                            spark.classList.add('spark');
+                            
+                            const angle = Math.random() * Math.PI * 2;
+                            const distance = 20 + Math.random() * 60;
+                            const tx = Math.cos(angle) * distance;
+                            const ty = Math.sin(angle) * distance;
+                            
+                            spark.style.setProperty('--tx', `${tx}px`);
+                            spark.style.setProperty('--ty', `${ty}px`);
+                            
+                            spark.style.left = `${x}px`;
+                            spark.style.top = `${window.innerHeight - 100}px`;
+                            
+                            // Random color
+                            const colors = ['#ffce3e', '#ff6b9c', '#4ecdc4', '#ff0000', '#ffff00'];
+                            spark.style.background = colors[Math.floor(Math.random() * colors.length)];
+                                            firecrackersContainer.appendChild(spark);
+                            
+                            // Remove after animation
+                            setTimeout(() => {
+                                spark.remove();
+                            }, 1000);
+                        }
+                    }, 2000);
+                    
+                    // Remove after animation
+                    setTimeout(() => {
+                        cracker.remove();
+                    }, 2000);
+                    
+                }, i * 300);
+            }
+        }
+        
+        // Generate more flowers continuously
+        setInterval(createFlowers, 15000);
+        
+        // Create fireworks at regular intervals
+        setInterval(createFireworks, 5000);
+        
+        // Create firecrackers at regular intervals
+        setInterval(createFirecrackers, 8000);
+        
+        // Function to generate shareable link
+        function generateLink() {
+            const name = document.getElementById('nameInput').value.trim();
+            
+            if (name === '') {
+                alert('कृपया पहिले आफ्नो नाम लेख्नुहोस्!');
+                return;
+            }
+            
+            // In a real scenario, this would generate a unique link
+            const baseUrl = window.location.href.split('?')[0];
+            const link = `${baseUrl}?sender=${encodeURIComponent(name)}`;
+            
+            document.getElementById('generatedLink').textContent = link;
+            document.getElementById('linkContainer').style.display = 'block';
+            
+            // Update message with sender's name
+            document.getElementById('message').innerHTML = `<span class="highlight">${name}</span> को तर्फबाट Happy दशैं र विजया दशमीको शुभकामना! दुर्गा माँले तपाईंलाई सुख, समृद्धि र आनन्द प्रदान गरुन्!`;
+            
+            // Add animation to message
+            document.getElementById('message').style.animation = 'none';
+            setTimeout(() => {
+                document.getElementById('message').style.animation = 'fadeIn 2s';
+            }, 10);
+            
+            // Create fireworks when generating link
+            createFireworks();
+            createFirecrackers();
+            
+            // Open share modal automatically
+            setTimeout(openShareModal, 1000);
+        }
+        
+        // Function to copy link to clipboard
+        function copyLink() {
+            const linkText = document.getElementById('generatedLink').textContent;
+            navigator.clipboard.writeText(linkText)
+                .then(() => {
+                    alert('लिंक कपी भयो!');
+                })
+                .catch(err => {
+                    console.error('Error copying text: ', err);
+                });
+        }
+        
+        // Open share modal
+        function openShareModal() {
+            document.getElementById('shareModal').style.display = 'flex';
+        }
+        
+        // Close share modal
+        function closeShareModal() {
+            document.getElementById('shareModal').style.display = 'none';
+        }
+        
+        // Social sharing functions
+        function shareOnWhatsApp() {
+            const text = encodeURIComponent("दुर्गा पूजाको शुभकामना! " + document.getElementById('generatedLink').textContent);
+            window.open(`https://wa.me/?text=${text}`, '_blank');
+        }
+        
+        function shareOnFacebook() {
+            const url = encodeURIComponent(document.getElementById('generatedLink').textContent);
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+        }
+        
+        function shareOnTelegram() {
+            const text = encodeURIComponent("दुर्गा पूजाको शुभकामना! " + document.getElementById('generatedLink').textContent);
+            window.open(`https://t.me/share/url?url=${text}`, '_blank');
+        }
+        
+        function shareOnTwitter() {
+            const text = encodeURIComponent("दुर्गा पूजाको शुभकामना! " + document.getElementById('generatedLink').textContent);
+            window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+        }
+        
+        function shareOnInstagram() {
+            alert('कृपया आफ्नो इन्स्टाग्राममा लिंक साझा गर्नुहोस्');
+        }
+        
+        function shareOnMessenger() {
+            const url = encodeURIComponent(document.getElementById('generatedLink').textContent);
+            window.open(`fb-messenger://share?link=${url}`, '_blank');
+        }
+        
+        // Check if page was opened with a sender parameter
+        function checkQueryParams() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const sender = urlParams.get('sender');
+            
+            if (sender) {
+                document.getElementById('message').innerHTML = `<span class="highlight">${sender}</span> को तर्फबाट Happy दशैं र विजया दशमीको शुभकामना! दुर्गा माँले तपाईंलाई सुख, समृद्धि र आनन्द प्रदान गरुन्!`;
+                document.getElementById('nameInput').placeholder = "आफ्नो नाम लेख्नुहोस्";
+                
+                // Create fireworks when opening a shared link
+                createFireworks();
+                createFirecrackers();
+            }
+        }
+        
+        // Initialize
+        window.onload = function() {
+            checkQueryParams();
+            createFlowers();
+            createFireworks(); // Start fireworks immediately on page load
+            createFirecrackers(); // Start firecrackers immediately on page load
+            
+            // Simulate image loading (user will replace with their own)
+            document.getElementById('durgaImage').onload = function() {
+                this.style.opacity = 1;
+            };
+        };
+    </script>
+</body>
+</html>
+
+<script async="async" data-cfasync="false" src="//pl27651233.revenuecpmgate.com/fd3148fb87535caef56a884279d959a0/invoke.js"></script>
+<div id="container-fd3148fb87535caef56a884279d959a0"></div><br>
+<script type='text/javascript' src='//pl27621804.revenuecpmgate.com/44/7d/a4/447da4e7044f493e964079bdb2d62fe8.js'></script>
+
+<br><script type='text/javascript' src='//pl27621827.revenuecpmgate.com/87/0b/32/870b32db2b16586f46e1a95641fadadf.js'></script>
